@@ -1,6 +1,6 @@
 .top-bar{
     background-color: #00923f;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .top-bar .lienhe{
     float: right;
@@ -30,6 +30,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin:0;
+    font-weight: 700;
 }
 .header .menu > ul > li{
     float: left;
@@ -39,9 +40,121 @@
     text-decoration: none;
     display:block;
     color: #555555;
-    padding: 50px 20px;
+    padding: 50px 18px;
 }
 .header .menu > ul > li > a:hover{
     color: #00923f;
     background-color: #e0e0e0;
+}
+#slide-product .owl-dots{
+    position: absolute;
+    bottom:15px;
+    left:650px;
+}
+#slide-product .owl-dots .owl-dot span{
+    width: 10px;
+    height: 10px;
+    background-color: #fff; 
+    display: block; 
+    margin: 5px;
+    border: solid 3px #fff;
+    border-radius: 50%;
+}
+#slide-product .owl-dots .active span{
+    background-color: #00923f; 
+}
+.product{
+    padding: 55px 0 35px 0;
+    background-color: #f5f5f5;
+}
+.product figure{
+    margin-bottom: 30px;
+}
+.product h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #353535;
+    margin-bottom: 15px;
+}
+.product p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.product button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #00923f;
+    margin-bottom: 28px;
+}
+.product .line-end{
+    border-bottom: solid 2px #cecece;
+    display: block;
+}
+.about-us{
+    border-top: solid 5px #00923f;
+    border-bottom: solid 5px #00923f;
+    padding: 35px 0;
+    background-image: url(../images/full-background.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+.about-us .mask{
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+.about-us h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 10px 0px;
+    color: #fff;
+}
+.about-us span{
+    border-top: solid 1px #00923f;
+    display: block;
+    width: 150px;
+}
+.about-us .line-left{
+    float: right;
+    color: #00923f;
+    position: relative;
+}
+.about-us .line-left>span{
+    position: absolute;
+    right: 6px;
+    top:6px;
+}
+.about-us .line-right{
+    float: left;
+    color: #00923f;
+    position: relative;
+}
+.about-us .line-right>span{
+    position: absolute;
+    left: 6px;
+    top:6px;
+}
+.about-us p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #b4b4b4;
+    margin-top: 25px;
+}
+.about-us button{
+    margin-top: 30px;
 }

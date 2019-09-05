@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -70,7 +70,115 @@
     </header>
 
     <main>
+        <section class="slide">
+            <div class="owl-carousel" id="slide-product">
+                <figure>
+                    <img src="./images/slide-1.png">
+                </figure>
+                <figure>
+                    <img src="./images/slide-1.png">
+                </figure>
+                <figure>
+                    <img src="./images/slide-1.png">
+                </figure>
+                <figure>
+                    <img src="./images/slide-1.png">
+                </figure>
+            </div>
+        </section>
 
+        <section class="product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="./images/product-1.png">
+                        </figure>
+                        <h4>Rọ đá</h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <button type="button" class="btn btn-success">Xem tiếp</button>
+                        <span class="line-end"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="./images/product-1.png">
+                        </figure>
+                        <h4>Rọ đá</h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <button type="button" class="btn btn-success">Xem tiếp</button>
+                        <span class="line-end"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="./images/product-1.png">
+                        </figure>
+                        <h4>Rọ đá</h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <button type="button" class="btn btn-success">Xem tiếp</button>
+                        <span class="line-end"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="./images/product-1.png">
+                        </figure>
+                        <h4>Rọ đá</h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <button type="button" class="btn btn-success">Xem tiếp</button>
+                        <span class="line-end"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="mask"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Giới thiệu về chúng tôi</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="line-left fa fa-chevron-left">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="line-right fa fa-chevron-right">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum
+                            <button type="button" class="btn btn-success">Xem tiếp</button>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="other-info">
+
+        </section>
     </main>
 
     <footer>
@@ -81,7 +189,16 @@
     <script src="js/popover.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-
+    <script>
+        $(document).ready(function () {
+            $("#slide-product").owlCarousel({
+                items: 1,
+                margin: 10,
+                dots: true,
+                loop: true,
+            });
+        });
+    </script>
 </body>
 
 </html>
