@@ -70,14 +70,14 @@
 .product figure{
     margin-bottom: 30px;
 }
-.product h4{
+.product h4,.slide-content .item h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: #353535;
     margin-bottom: 15px;
 }
-.product p{
+.product p,.slide-content .item p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #555555;
@@ -89,6 +89,7 @@
     font-weight: 600;
     background-color: #00923f;
     margin-bottom: 28px;
+    width: 100px;
 }
 .product .line-end{
     border-bottom: solid 2px #cecece;
@@ -114,7 +115,7 @@
     right: 0;
     background: rgba(0, 0, 0, 0.7);
 }
-.about-us h2{
+.content h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -122,32 +123,32 @@
     margin: 0 0 10px 0px;
     color: #fff;
 }
-.about-us span{
+.content span{
     border-top: solid 1px #00923f;
     display: block;
     width: 150px;
 }
-.about-us .line-left{
+.content .line-left{
     float: right;
     color: #00923f;
     position: relative;
 }
-.about-us .line-left>span{
+.content .line-left>span{
     position: absolute;
     right: 6px;
     top:6px;
 }
-.about-us .line-right{
+.content .line-right{
     float: left;
     color: #00923f;
     position: relative;
 }
-.about-us .line-right>span{
+.content .line-right>span{
     position: absolute;
     left: 6px;
     top:6px;
 }
-.about-us p{
+.content p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -155,6 +156,86 @@
     color: #b4b4b4;
     margin-top: 25px;
 }
-.about-us button{
+.content button{
     margin-top: 30px;
+    width: 100px;
+    background-color: #c1241c;
+    border-color: #c1241c;
+}
+.other-info{
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    border-bottom: solid 3px #00923f;
+}
+.other-info .content h2{
+    color: #525252;
+    margin-bottom: 15px;
+}
+.other-info .content .line-left,.other-info .content span,.other-info .content .line-right,.other-info .content span{
+    color: #cecece;
+    border-color: #cecece;
+}
+.slide-content{
+    margin-top: 35px;
+}
+.slide-content .item figure img{
+    border-radius: 2%;
+}
+.slide-content .item h4{
+    margin-top: 20px;
+}
+.slide-content .item p{
+    padding-left: 4px;
+}
+.slide-content .item p>a{
+    text-decoration: none;
+    color: #00923f;
+    margin-left: 10px;
+}
+.slide-content .item p>a>i{
+    margin-left: 5px;
+}
+.slide-content .owl-nav{
+    display: block;
+}
+.slide-content .owl-nav i{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 13px 10px;
+    color: #fff;
+}
+.slide-content .owl-nav .owl-prev i{
+    position: absolute;
+    left: 0;
+    top:80px;
+}
+.slide-content .owl-nav .owl-next i{
+    position: absolute;
+    right: 0;
+    top:80px;
+}
+footer{
+    background-color: #252525;
+    padding: 20px 0;
+}
+.copyright > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #959595;
+    margin: 0;
+}
+.copyright > p > a{
+    color: #959595;
+    text-decoration: none;
+}
+footer .share{
+    float: right;
+}
+footer .share ul>li{
+    float: left;
+    list-style-type: none;
+    margin-left: 25px;
+}
+footer .share ul>li>a{
+    color: #676767;
+    font-size: 20px;
 }
