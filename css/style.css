@@ -1,7 +1,9 @@
 main{
     background-color: #f5f5f5;
 }
-
+.logo figure{
+    width: 280px;
+}
 .top-bar{
     background-color: #00923f;
     padding: 10px 0;
@@ -195,7 +197,11 @@ figure>img{
 .item p{
     padding-left: 4px;
 }
-.item p>a,.product-info .item a{
+.item a{
+    color: #707070;
+    text-decoration: none;
+}
+.item .seen,.product-info .item a{
     text-decoration: none;
     color: #00923f;
     margin-left: 10px;
